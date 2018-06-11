@@ -1,0 +1,41 @@
+.twoColumn {
+	column-count: 2;
+	}
+body {
+	max-width: 750px;
+	margin: auto;
+	background: white;
+}
+a {
+	text-decoration: none;
+}
+/* set colors for font awesome links */
+a:link .fas, a:link .fab {
+	color: blue;
+}
+a:visited .fas, a:visited .fab {
+	color: purple;
+}
+.fas, .fab {
+	color: inherit;
+}
+/* wikipedia icon link colors are inverted */
+a:link .fa-wikipedia-w {
+	background-color: blue;
+	color: white;
+}
+a:visited .fa-wikipedia-w {
+	background-color: purple;
+	color: white;
+}
+.fa-wikipedia-w {
+	color: inherit;
+	background-color: inherit;
+	font-size: 60%;
+	border-radius: 2px;
+	padding: 2px;
+}
+
+
+
+
